@@ -23,7 +23,7 @@ Hay dos fechas importantes previstas en este período de examen:
 Consultas
 *********
 
-Durante el período de resolución del examen (|entrega| a |deadline2|) se permiten consultas de todo tipo a los docentes. Estas pueden incluir explicaciones y aclaraciones sobre los problemas, discusiones sobre métodos de resolución o módulos o paquetes extra de python que puedan utilizarse, etc.
+Durante el período de resolución del examen (|entrega| a |deadline2|) se permiten consultas a los docentes. Estas pueden incluir explicaciones y aclaraciones sobre los problemas, discusiones sobre métodos de resolución o módulos o paquetes extra de python que puedan utilizarse, etc.
 
 Además se permiten (y alientan) discusiones entre estudiantes que incluyan todos los aspectos que se discuten con la cátedra, **exceptuando** compartir código.
 
@@ -34,3 +34,4 @@ Además se permiten (y alientan) discusiones entre estudiantes que incluyan todo
 Elección y entrega de problemas
 *******************************
 
+Aquí aparecerá el listado con los problemas elegidos

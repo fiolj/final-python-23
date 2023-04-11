@@ -1,5 +1,5 @@
-|icono| Detección de eventos en una medición
-============================================
+|icono| Simulación de medición y análisis de datos
+==================================================
 
 .. |icono| image:: _static/chart-line.svg
 	   :width: 52
