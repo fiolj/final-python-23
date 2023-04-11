@@ -29,6 +29,8 @@ corresponden a un campo de juego de 105 m de largo por 68 m de ancho.
 Las dimensiones de cada zona se pueden ver así:
 
 .. image:: ../figuras/campo_de_futbol.png
+	   :width: 80%
+	   :align: center
 
 Enunciado
 ---------
