@@ -1,0 +1,113 @@
+.. Examen Final IPyIC documentation master file
+   It should contain at least the root `toctree` directive.
+
+################################
+|examen| Examen Final IPyIC 2023
+################################
+.. |examen| image:: _static/user-graduate.svg
+	    :width: 52
+
+:Institución: Instituto Balseiro - Univ. Nac. de Cuyo
+:Fecha: |today|
+:Docentes: Juan Fiol y Flavio Colavecchia
+
+El examen final consiste en la resolución de **uno solo** de los cuatro problemas presentados, a elección.
+
+
+.. raw:: html
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 d-flex">
+          <a class="reference internal" href="lineamientos.html"><span class="std std-ref">
+              <div class="card text-center intro-card shadow">
+                <img src="_static/list-alt.svg" class="card-img-top" alt="fas list-alt icon" width="52">
+                <div class="card-body flex-fill">
+                  <h5 class="card-title">Lineamientos</h5>
+                  <p class="card-text">Acá encontrará los lineamientos de modalidad del examen incluyendo varios aspectos que se tendrán en cuenta, así como fechas de entrega. </p>
+                </div>
+          </span></a>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 d-flex">
+          <a class="reference internal" href="pmp.html"><span class="std std-ref">
+              <div class="card text-center intro-card shadow">
+                <img src="_static/question-circle.svg" class="card-img-top" alt="fas question-circle icon" width="52">
+                <div class="card-body flex-fill">
+                  <h5 class="card-title">PMP</h5>
+                  <p class="card-text">Preguntas Muy Preguntadas (FAQ) es una sección que va ser actualizadas con aclaraciones sobre dudas que surgan tanto sobre la modalidad del examen como sobre los problemas.</p>
+                </div>
+          </span></a>
+          </div>
+        </div>
+    
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 d-flex">
+          <a class="reference internal" href="ej_deteccion.html"><span class="std std-ref">
+              <div class="card text-center intro-card shadow">
+                <img src="_static/chart-line.svg" class="card-img-top" alt="fas chart-line icon" width="52">
+                <div class="card-body flex-fill">
+                  <h5 class="card-title">Simulación de medición y análisis de datos</h5>
+                  <p class="card-text">Este es un problema de simulación de una medición con sus incertezas y del análisis y graficación de los datos.</p>
+                </div>
+          </span></a>
+          </div>
+        </div>
+    
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 d-flex">
+          <a class="reference internal" href="ej_criptografia.html"><span class="std std-ref">
+              <div class="card text-center intro-card shadow">
+                <img src="_static/user-secret.svg" class="card-img-top" alt="fas language icon" width="52">
+                <div class="card-body flex-fill">
+                  <h5 class="card-title">Descifrado de mensajes</h5>
+                  <p class="card-text">Vamos a descifrar mensajes secretos, que fueron encriptados con un método que conocemos, pero no tenemos las claves.</p>
+                </div>
+          </span></a>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 d-flex">
+          <a class="reference internal" href="ej_fifa.html"><span class="std std-ref">
+              <div class="card text-center intro-card shadow">
+                <img src="_static/futbol.svg" class="card-img-top" alt="fas barcode icon" width="52">
+                <div class="card-body flex-fill">
+                  <h5 class="card-title">Fútbol codificado</h5>
+                  <p class="card-text">En este problema analizamos datos detallados de un partido de fútbol. Utilizando los datos en cada instante podemos determinar características de los equipos y de cada jugador.</p>
+                </div>
+          </span></a>
+          </div>
+        </div>
+    
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 d-flex">
+          <a class="reference external" href="ej_decaimiento.html"><span class="std std-ref">
+              <div class="card text-center intro-card shadow">
+                <img src="_static/atom.svg" class="card-img-top" alt="fas atom icon" width="52">
+                <div class="card-body flex-fill">
+                  <h5 class="card-title">Decaímiento espontáneo de estados metaestables</h5>
+                  <p class="card-text">Simulación del decaímiento de una partícula en un estado metaestable. Este modelo se aplica a núcleos radiactivos, átomos excitados autoionizantes y moléculas fluorescentes, entre otros sistemas.</p>
+                </div>
+          </span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Problemas:
+   :hidden:
+
+   ej_deteccion
+   ej_fifa
+   ej_decaimiento
+   ej_criptografia
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Información:
+   :hidden:
+
+   lineamientos
+   pmp
+
+   

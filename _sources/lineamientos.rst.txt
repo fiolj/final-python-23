@@ -1,0 +1,36 @@
+############################
+|icono| Modalidad del examen
+############################
+
+.. |icono| image:: _static/list-alt.svg
+	   :width: 52
+
+La modalidad del examen es '*domiciliario*'.
+Cada estudiante debe elegir un problema, resolverlo y enviar su resolución por correo electrónico. La entrega consiste únicamente de uno o más archivos de programa, sin datos o figuras.
+
+
+******
+Fechas
+******
+
+Hay dos fechas importantes previstas en este período de examen:
+
++ El día |deadline1| o antes se deberá enviar un mensaje por correo electrónico indicando que ejercicio se eligió para resolver
++ El día |deadline2| al mediodía es la fecha límite para entregar la resolución del ejercicio elegido. 
+
+
+*********
+Consultas
+*********
+
+Durante el período de resolución del examen (|entrega| a |deadline2|) se permiten consultas de todo tipo a los docentes. Estas pueden incluir explicaciones y aclaraciones sobre los problemas, discusiones sobre métodos de resolución o módulos o paquetes extra de python que puedan utilizarse, etc.
+
+Además se permiten (y alientan) discusiones entre estudiantes que incluyan todos los aspectos que se discuten con la cátedra, **exceptuando** compartir código.
+
+**No** está permitido copiar resoluciones de los problemas que se encuentren en internet pero es perfectamente válido utilizar métodos encontrados de aspectos específicos, previa reescritura propia del código.
+
+
+*******************************
+Elección y entrega de problemas
+*******************************
+
