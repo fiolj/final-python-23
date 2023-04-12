@@ -86,9 +86,10 @@ Como no tenemos el equipo de medición vamos a realizar una simulación del sist
 <ul>
 <li><p>El detector produce una señal que puede modelarse con la función</p>
 <div class="math notranslate nohighlight">
-\[S(t) = A e^{(t-t_0)^2/2 \sigma^2} \, \cos\left[\omega (t-t_0 + \sigma) \right]\]</div>
+\[S(t) = A e^{-(t-t_0)^2/2 \sigma^2} \, \cos\left[\omega (t-t_0 + \sigma) \right]\]</div>
 </li>
 </ul>
+<p>donde la constante <span class="math notranslate nohighlight">\(A\)</span> es tal que la integral del pulso es igual a 1.</p>
 <a class="reference internal image-reference" href="_images/ej_deteccion_modelo.png"><img alt="_images/ej_deteccion_modelo.png" class="align-center" src="_images/ej_deteccion_modelo.png" style="width: 70%;" /></a>
 <ul class="simple">
 <li><p>La señal modelo está caracterizada por tres parámetros: el centro <span class="math notranslate nohighlight">\(t_0\)</span>, el ancho <span class="math notranslate nohighlight">\(\sigma\)</span> y la frecuencia de la oscilación <span class="math notranslate nohighlight">\(\omega\)</span>. Cada uno de estos parámetros no va a ser exactamente igual en cada señal registrada sino que van a variar con ciertas probabilidades:</p></li>
@@ -108,8 +109,8 @@ Como no tenemos el equipo de medición vamos a realizar una simulación del sist
 <p>centrada en <span class="math notranslate nohighlight">\(t_{0}\)</span>, con parámetros <span class="math notranslate nohighlight">\(a=4\)</span> y <span class="math notranslate nohighlight">\(b=2\)</span> (ver <a class="reference external" href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.betaprime.html#scipy.stats.betaprime">scipy.stats.betaprime</a>) donde <span class="math notranslate nohighlight">\(B\)</span> es la función <a class="reference external" href="https://en.wikipedia.org/wiki/Beta_function">distribución Beta</a>.</p>
 </li>
 <li><p>El ancho <span class="math notranslate nohighlight">\(\sigma\)</span> del pico central varía con probabilidad dada por una <a class="reference external" href="https://numpy.org/doc/stable/reference/random/generated/numpy.random.normal.html">distribución normal</a> con valor medio <span class="math notranslate nohighlight">\(\sigma_{0} = 0.05 \mu s\)</span> e incerteza <span class="math notranslate nohighlight">\(\sigma_{\sigma}= 0.005\)</span>.</p></li>
-<li><p>La frecuencia de la oscilación <span class="math notranslate nohighlight">\(\omega\)</span> varía con probabilidad dada por una <a class="reference external" href="https://numpy.org/doc/stable/reference/random/generated/numpy.random.normal.html">distribución normal</a> centrada en <span class="math notranslate nohighlight">\(\omega_{0} = 5 \pi\)</span>, con incerteza  <span class="math notranslate nohighlight">\(\sigma_{\omega}= 0.05\)</span>.</p></li>
-<li><p>La medición tiene un «ruido» estadístico azaroso, con distribución normal que tiene dos componentes: una absoluta y una relativa. El ruido relativo tiene un valor medio igual a 1 y un ancho igual a 0.1, y se multiplica a la señal. El ruido absoluto tiene un valor medio nulo, con ancho igual a 0.2 y simplemente se suma a la señal.</p></li>
+<li><p>La frecuencia de la oscilación <span class="math notranslate nohighlight">\(\omega\)</span> varía con probabilidad dada por una <a class="reference external" href="https://numpy.org/doc/stable/reference/random/generated/numpy.random.normal.html">distribución normal</a> centrada en <span class="math notranslate nohighlight">\(\omega_{0} = 5 \pi\)</span> (en unidades de <span class="math notranslate nohighlight">\(1/\mu s\)</span>), con incerteza  <span class="math notranslate nohighlight">\(\sigma_{\omega}= 0.05\)</span>.</p></li>
+<li><p>La medición tiene un «ruido» estadístico azaroso, con distribución normal que tiene dos componentes: una absoluta y una relativa. El ruido relativo tiene un valor medio igual a 1 y un ancho igual a 0.1, y se multiplica a la señal. El ruido absoluto tiene un valor medio nulo, con ancho igual a <span class="math notranslate nohighlight">\(0.2\)</span> y simplemente se suma a la señal.</p></li>
 <li><p>Todo el espectro está montado sobre un fondo lineal <span class="math notranslate nohighlight">\(f(t) = (- t + 2)/100\)</span></p></li>
 </ul>
 </li>
