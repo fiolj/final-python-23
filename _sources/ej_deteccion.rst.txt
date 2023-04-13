@@ -18,8 +18,9 @@ En el eje horizontal ocurre el intervalo de tiempo en que se espera la señal. A
 
   .. math::
 
-      S(t) = A e^{(t-t_0)^2/2 \sigma^2} \, \cos\left[\omega (t-t_0 + \sigma) \right]
+      S(t) = A e^{-(t-t_0)^2/2 \sigma^2} \, \cos\left[\omega (t-t_0 + \sigma) \right]
 
+donde la constante $A$ es tal que la integral del pulso es igual a 1.
 
 .. image:: ../figuras/ej_deteccion_modelo.png
 	   :width: 70%
@@ -56,12 +57,11 @@ Simulación de la medición
 
   - El ancho :math:`\sigma` del pico central varía con probabilidad dada por una `distribución normal <https://numpy.org/doc/stable/reference/random/generated/numpy.random.normal.html>`_ con valor medio :math:`\sigma_{0} = 0.05 \mu s` e incerteza :math:`\sigma_{\sigma}= 0.005`.
 
-  - La frecuencia de la oscilación :math:`\omega` varía con probabilidad dada por una `distribución normal <https://numpy.org/doc/stable/reference/random/generated/numpy.random.normal.html>`_ centrada en :math:`\omega_{0} = 5 \pi`, con incerteza  :math:`\sigma_{\omega}= 0.05`.
+  - La frecuencia de la oscilación :math:`\omega` varía con probabilidad dada por una `distribución normal <https://numpy.org/doc/stable/reference/random/generated/numpy.random.normal.html>`_ centrada en :math:`\omega_{0} = 5 \pi` (en unidades de $1/\mu s$), con incerteza  :math:`\sigma_{\omega}= 0.05`.
 
-  - La medición tiene un "ruido" estadístico azaroso, con distribución normal que tiene dos componentes: una absoluta y una relativa. El ruido relativo tiene un valor medio igual a 1 y un ancho igual a 0.1, y se multiplica a la señal. El ruido absoluto tiene un valor medio nulo, con ancho igual a 0.2 y simplemente se suma a la señal.
+  - La medición tiene un "ruido" estadístico azaroso, con distribución normal que tiene dos componentes: una absoluta y una relativa. El ruido relativo tiene un valor medio igual a 1 y un ancho igual a 0.1, y se multiplica a la señal. El ruido absoluto tiene un valor medio nulo, con ancho igual a $0.2$ y simplemente se suma a la señal.
 
   - Todo el espectro está montado sobre un fondo lineal :math:`f(t) = (- t + 2)/100`
-
 
 Enunciado
 ---------
