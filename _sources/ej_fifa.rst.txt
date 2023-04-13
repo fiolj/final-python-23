@@ -1,5 +1,8 @@
-Futbol codificado
-=================
+|icono| Futbol codificado
+=========================
+
+.. |icono| image:: _static/futbol.svg
+	   :width: 52
 
 En este ejercicio se propone programar distintas funcionalidades a
 partir de los datos de un partido de fútbol. Los archivos ``Local.csv``
