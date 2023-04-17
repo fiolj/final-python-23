@@ -34,7 +34,6 @@ Además se permiten (y alientan) discusiones entre estudiantes que incluyan todo
 Elección y entrega de problemas
 *******************************
 
-
 .. table::
 
     +---------------------------+------------------------------------------------+-----------+
@@ -46,7 +45,7 @@ Elección y entrega de problemas
     +---------------------------+------------------------------------------------+-----------+
     | Blatter, Gastón           | Decaimiento espontáneo de estados metaestable  | \         |
     +---------------------------+------------------------------------------------+-----------+
-    | Cabaña                    | \                                              | \         |
+    | Cabaña, Agustín           | Futbol Codificado                              | \         |
     +---------------------------+------------------------------------------------+-----------+
     | Casse, Juan               | Simulación de medición y análisis de datos     | \         |
     +---------------------------+------------------------------------------------+-----------+
@@ -90,7 +89,7 @@ Elección y entrega de problemas
     +---------------------------+------------------------------------------------+-----------+
     | Navarro, Florencia Nataly | Decaímiento espontáneo de estados metaestables | \         |
     +---------------------------+------------------------------------------------+-----------+
-    | Orozco, María José        | Simulación de medición y análisis de datos     | \         |
+    | Orozco, María José        | Análisis Criptográfico de Texto                | \         |
     +---------------------------+------------------------------------------------+-----------+
     | Pasquevich. Ian           | Análisis criptográfico de texto                | \         |
     +---------------------------+------------------------------------------------+-----------+
@@ -100,7 +99,7 @@ Elección y entrega de problemas
     +---------------------------+------------------------------------------------+-----------+
     | Rodriguez, Jean           | Decaimiento espontáneo de estados metaestable  | \         |
     +---------------------------+------------------------------------------------+-----------+
-    | San Martin, Nicolás}      | Futbol codificado                              | \         |
+    | San Martin, Nicolás       | Futbol codificado                              | \         |
     +---------------------------+------------------------------------------------+-----------+
     | Segovia, Tadeo            | Análisis Criptográfico de Texto                | \         |
     +---------------------------+------------------------------------------------+-----------+
