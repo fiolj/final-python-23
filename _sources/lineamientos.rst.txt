@@ -50,7 +50,7 @@ Elección y entrega de problemas
     +---------------------------+------------------------------------------------+-----------+
     | Casse, Juan               | Simulación de medición y análisis de datos     | Si        |
     +---------------------------+------------------------------------------------+-----------+
-    | Chehade, Pablo            | Simulación de medición y análisis de datos     | \         |
+    | Chehade, Pablo            | Simulación de medición y análisis de datos     | Si        |
     +---------------------------+------------------------------------------------+-----------+
     | Churlis, Alexis           | Simulación de medición y análisis de datos     | Si        |
     +---------------------------+------------------------------------------------+-----------+
@@ -66,7 +66,7 @@ Elección y entrega de problemas
     +---------------------------+------------------------------------------------+-----------+
     | Goijman, Dafne            | Análisis Criptográfico de Texto                | \         |
     +---------------------------+------------------------------------------------+-----------+
-    | González, Tomás           | Futbol codificado                              | \         |
+    | González, Tomás           | Futbol codificado                              | Si        |
     +---------------------------+------------------------------------------------+-----------+
     | Lopez, Matías             | Futbol codificado                              | Si        |
     +---------------------------+------------------------------------------------+-----------+
@@ -84,7 +84,7 @@ Elección y entrega de problemas
     +---------------------------+------------------------------------------------+-----------+
     | Navarro, Florencia Nataly | Decaímiento espontáneo de estados metaestables | Si        |
     +---------------------------+------------------------------------------------+-----------+
-    | Orozco, María José        | Simulación de medición y análisis de datos     | \         |
+    | Orozco, María José        | Simulación de medición y análisis de datos     | Si        |
     +---------------------------+------------------------------------------------+-----------+
     | Pasquevich. Ian           | Análisis criptográfico de texto                | Si        |
     +---------------------------+------------------------------------------------+-----------+
